@@ -14,8 +14,8 @@
         - save clean state -> before.arn
     - Open regShot
         - 1st Shot (clean state)
-    - Open CaptureBat (maybe change extenstion of filename txt -> xyz)
     - Open ProcExplorer
+    - *Open CaptureBat (maybe change extenstion of filename txt -> xyz)*
 
 -> snapshot clean ready
 
@@ -50,7 +50,9 @@
 
 ### Workflow Dynamic Analysis Results
 - Wireshark
+    - run tshark ...
 - CaptureBat
+    - sort|uniq
 - RegShot
 - AutoRun
 - ProcExplorer
