@@ -25,3 +25,13 @@ tshark -r capture.pcap -Y 'tcp || udp' -T fields -e tcp.dstport -e udp.dstport |
 
 (-> run other tools)
 - run malware
+
+
+
+## Analyse TcpDump
+- Better in wireshark (pcap file)
+- lookf for DNS lookup
+- Follow TCP Stream
+
+
+
